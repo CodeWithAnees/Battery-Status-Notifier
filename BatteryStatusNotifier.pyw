@@ -14,6 +14,7 @@ def center():
 
     # Positions the window in the center of the page.
     root.geometry("+{}+{}".format(positionRight, positionDown))
+    root.lift()
 
 
 while (True):
@@ -34,7 +35,7 @@ while (True):
         lable3.pack()
         root.after(3000, lambda: root.destroy())
         root.mainloop()
-        time.sleep(300)
+        time.sleep(60)
 
     if percent >= 90 and plugged == True:
         root = Tk()
