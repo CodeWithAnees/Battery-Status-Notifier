@@ -2,7 +2,6 @@ import psutil
 import time
 from win10toast import ToastNotifier
 
-
 while (True):
     toaster = ToastNotifier()
     time.sleep(1)
@@ -18,3 +17,4 @@ while (True):
     if percent >= 90 and plugged == True:
         toaster.show_toast("Battery Full","Please Plug-Out the Charger.",duration=10,icon_path="./battery full.ico")
         time.sleep(30)
+
