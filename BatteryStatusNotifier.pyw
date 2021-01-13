@@ -1,9 +1,10 @@
 import psutil
 import time
 from win10toast import ToastNotifier
-toaster = ToastNotifier()
+
 
 while (True):
+    toaster = ToastNotifier()
     time.sleep(1)
     battery = psutil.sensors_battery()
     plugged = battery.power_plugged
