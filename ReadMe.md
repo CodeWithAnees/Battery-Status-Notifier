@@ -1,7 +1,6 @@
 # Battery Status Notifier in Python
 
-In this python script, You can simply monitor the battery percentage and also look for sockets is get a plug or not based on that you will get notified which will warn you or about your battery percentage as well as on your screen notification will appear in the center of the screen so that will draw your attention.
-To use this script you simply need to copy BatteryStatusNotifier.pyw file and save it as whatever name you want. Then just copy or create a shortcut of that file and paste it into the startup folder so whenever your computer is restarted this program will run in the background and base on your battery status it will warn you.
+In this python script, You can simply monitor the battery percentage and also look for sockets is get a plug or not based on that you will get notified which will warn you or about your battery percentage as well as on your screen notification will appear in the bottom right of the screen so that will draw your attention.
 
 ## Installation
 
